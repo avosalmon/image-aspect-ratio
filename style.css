@@ -1,0 +1,23 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.columns {
+
+}
+
+.column {
+    width: 33%;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.column::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
